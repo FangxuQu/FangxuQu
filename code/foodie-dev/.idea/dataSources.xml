@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="report_hs@192.168.70.159" uuid="c883a533-c60d-4b1d-8ba5-8e92920be0cf">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>适配器</remarks>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@192.168.70.159:1521:orcl</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="zgtams1225yh@192.168.90.76" uuid="d31017eb-8601-4ade-8149-04b00d9b1e89">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>下游接口</remarks>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@192.168.90.76:1521:orcl</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hsap30@192.168.90.76" uuid="07a735e2-fe41-4ba7-8835-312233b5afd3">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>下游接口</remarks>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@192.168.90.76:1521:orcl</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="ifm30@192.168.90.76" uuid="4391e5fe-847d-4aaa-a70b-4db845091368">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>销售</remarks>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@192.168.90.76:1521:orcl</jdbc-url>
+    </data-source>
+  </component>
+</project>
